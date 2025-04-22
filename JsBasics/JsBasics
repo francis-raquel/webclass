@@ -1,0 +1,40 @@
+console.log('AAA');
+const myBusinessName = 'My Awesome Business';
+console.log ('My Business Name is front page'+myBusinessName);
+console.log ('My Business Name is last page' +myBusinessName);
+console.log ('My Business Name is contact page' +myBusinessName);
+
+
+let outletAddress;
+outletAddress='Blockhouse Bay';
+console.log ('outlet address 1'+outletAddress);
+outletAddress='Manukau';
+console.log('outlet address 2' +outletAddress);
+outletAddress = 'City';
+console.log ('outlet address 2'+outletAddress);
+
+console.log(Date());
+
+if (outletAddress == 'Blockhouse Bay') (
+    console.log('Large store');
+)   else if (outletAddress == 'Manukau') (
+    console.log('Head Office');
+)   else if (outletAddress == 'City') (
+    console.log('Mega store');
+
+)
+console.log ('==================================================')
+switch(outletAddress) 
+    case 'Blockhouse Bay' ;(
+        console.log('Large store');
+        break;
+    )
+     case 'Manukau'; (
+        console.log('Head Office');
+        break;
+    ) 
+    case'city'; (
+        console.log ('Mega Store');
+        break
+    )
+)
